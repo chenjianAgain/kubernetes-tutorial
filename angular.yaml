@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: angular
-    image: richardchesterwood/k8s-fleetman-webapp-angular
+    image: richardchesterwood/k8s-fleetman-webapp-angular:release0
     resources:
       requests:
         cpu: 100m
