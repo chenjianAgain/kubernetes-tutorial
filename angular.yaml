@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod-example
+  name: angular
 spec:
   containers:
-  - name: pod-example
+  - name: angular
     image: richardchesterwood/k8s-fleetman-webapp-angular
