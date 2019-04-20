@@ -6,3 +6,7 @@ spec:
   containers:
   - name: angular
     image: richardchesterwood/k8s-fleetman-webapp-angular
+    resources:
+      requests:
+        cpu: 100m
+        memory: 100Mi
